@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family:'eyalsfont'; 
+  src: url(PTSans-Italic.ttf);
+  font-style: normal;
+  font-weight: 100%; 
+}
+
+body {
+  background-image: linear-gradient(to bottom right, lightgray, white);
+  font-family: 'eyalsfont';
+  font-size: 16px;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.button {
+  background-color: #3d6ded;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+}
+
+.card {
+  align-items: center;
+  background-image: linear-gradient(to bottom right, white, lightgray);
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  padding: 50px;
+}
+
+.nav-item {
+  color: #3d6ded;
+  font-size: 1.2rem;
+  margin: 2rem  ;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  justify-content: center;
+}
+
+ul li{ 
+  margin: 0rem 2rem 0rem 2rem;
+  text-decoration: none;
+}
+.page-wrapper {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  font-size: 32px;
+  height: 180px;
+  margin: 50px;
+  width: 180px;
+}
+li{
+  font-size: 1rem;
+  flex-basis: 0.5rem;
+}
+
+.fa-brands {
+  margin: 0.5rem;
+  font-size: 1rem;
+
+}
+.about{
+  margin: 1rem;
+  padding-left: 00.5rem;
+  background-color: beige;
+}
+.interests{
+  
+  padding: 1rem;
+}
+.int{
+  font-weight: bold;
+}
+ul p{
+  margin-left: 2rem;
+}
+.city{
+  margin: 1rem;
+  background-color: bisque;
+}
+.active{
+  display: block;
+}
+
+.mapGallery {
+  display: flex;
+}
+.map{
+  display: none;
+  margin: 1rem;
+}
+  
+.btnMap{
+  margin-left: 5rem;
+}
+.active{
+  display: block;
+ 
+}
+.btn{
+  margin-left: 2rem;
+  display: inline-flex;
+} 
+.btn:disabled{
+  display: none;
+}

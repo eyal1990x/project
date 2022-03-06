@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contect</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="page-wrapper">
+        <nav>
+            <a href="index.html" class="nav-item">Home
+            </a>
+            <a href="About.html" class="nav-item">About
+            </a>
+            <a href="Contect.html" class="nav-item">Contect
+            </a>
+        </nav>
+
+    </div>
+    <div class="wrapper">
+        <section>
+
+            <form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="POST">
+                <input type="hidden" name="send_to" value="eyalch1990@gmail.com">
+                <fieldset>
+                    <legend>Your contact information</legend>
+                    <label for="name"> First name </label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="name"> Lest name </label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="coments">Coment</label>
+                    <input type="coments" id="coments" name="coments" required>
+                    <br>
+                    <label for="information">Additional information</label>
+                    <textarea name="information" id="information" cols="30" rows="10"></textarea>
+                </fieldset>
+                <button type="submit">submit</button>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
